@@ -382,6 +382,7 @@ void initJackDetect(void)
 
 #if defined(AUX_SERIAL)
 const etx_serial_port_t auxSerialPort = {
+  "AUX1",
   &AuxSerialDriver,
   nullptr
 };
